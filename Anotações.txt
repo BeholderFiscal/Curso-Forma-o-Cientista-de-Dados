@@ -55,5 +55,31 @@ quer dizer que mesmo que a variável
 tenha apenas um único valor, ele terá
 uma posição, como numa tabela.
 
+matrizes
+
+#tem duas dimenções, linhas e colunas
+#permite apenas um tipo de dado
+#linhas e colunas podem ter identificadores (nomes)
+mas não fazem parte dos dados.
+#você pode ler ou alterar a posição
+Volcano[linha, coluna] 
+ex Volcano [2, 3] <- 3
+
+dataframe
+#semelhante as matrizes, porém permitem diferentes tipos de dados por coluna
+#tem dias dimensões
+#linhas e colunas podem ter nomes
+Dataframe$coluna
+
+listas
+#conjunto de dados relacionados, de classes diferentes
+#acessado através do índice.
+
+fatores
+#variáveis categóricas, podem ser ordenados
+dados= c(1,2,3)
+dados = factor(dados)
+
+
 
 
