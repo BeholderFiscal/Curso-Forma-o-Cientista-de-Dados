@@ -1,0 +1,59 @@
+R Studio
+
+carregar pacote
+
+#no console
+
+library(nome do pacote)
+descarregar pacote
+detach("package:nome do pacote", unload=True
+
+saber qual o diretório padrão
+getwd()
+
+alterar o diretório padrão
+setwd("caminho do diretório")
+
+notebooks
+#são blocos de código que podem ser reproduzidos
+separadamente.
+
+encerrar o r
+quit()
+
+classes
+#pra saber qual a classe
+class(nome do objeto)
+
+pode-se salvar o objeto
+save(objetos, file="nome.Rdata")
+
+carregar objetos
+load(file="nome.Rdata")
+
+visualização de dados
+plot(): função genérica
+hist() gráfico histograma 
+boxplot() gráfico boxplot
+
+tipo de dados
+-caractere
+#texto
+-numérico
+#suporta casas decimais
+-inteiro
+delta = 8L
+-fator
+#vetor de texto ordenável
+
+atribuição de valor
+= 
+<-
+
+#o R é uma linguagem vetorial
+quer dizer que mesmo que a variável
+tenha apenas um único valor, ele terá
+uma posição, como numa tabela.
+
+
+
