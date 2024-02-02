@@ -6,7 +6,7 @@ carregar pacote
 
 library(nome do pacote)
 descarregar pacote
-detach("package:nome do pacote", unload=True
+detach("package:nome do pacote", unload=True)
 
 saber qual o diretório padrão
 getwd()
@@ -16,7 +16,7 @@ setwd("caminho do diretório")
 
 notebooks
 #são blocos de código que podem ser reproduzidos
-separadamente.
+individualmente.
 
 encerrar o r
 quit()
@@ -67,13 +67,15 @@ ex Volcano [2, 3] <- 3
 
 dataframe
 #semelhante as matrizes, porém permitem diferentes tipos de dados por coluna
-#tem dias dimensões
+#tem duas dimensões
 #linhas e colunas podem ter nomes
 Dataframe$coluna
 
 listas
 #conjunto de dados relacionados, de classes diferentes
 #acessado através do índice.
+
+#o R tem indexação a partir do 1, diferente do python, que começa do 0.
 
 fatores
 #variáveis categóricas, podem ser ordenados
