@@ -82,6 +82,25 @@ fatores
 dados= c(1,2,3)
 dados = factor(dados)
 
+-------fim do dia1-------
 
+principais funções
 
-
+#mostra as primeiras linhas 6 linhas do código
+head()
+#mostra as últimas 6 linhas de um conjunto de dados
+tail()
+#resumo estatístico de um conjunto de dados
+summary()
+#selecionar um arquivo
+file.choose
+#usado para arquivos de duas dimenções dizendo quantas linhas
+e quantas colunas
+dim()
+#comprimento de um vetor (quando se tem apenas uma dimenção)
+length()
+#nomes das linhas e colunas
+colnames()
+rownames()
+#adicionar coluna
+colbind()
