@@ -104,3 +104,85 @@ colnames()
 rownames()
 #adicionar coluna
 colbind()
+
+-----fim do 2 dia-----
+
+importar dados
+
+csv
+#arquivo de texto separado por vírgula
+x = read.csv(file.choose(), header = TRUE, sep = ",")
+#pra quando não se sabe o caminho do arquivo.
+x = read.csv('nomedoarquivo.csv', header = TRUE, sep = ",")
+#pra quando o arquivo a ser aberto está no mesmo diretório
+de trabalho que o sccript RMD.
+
+excel
+
+dados = read.xlsx('nomedoaqruivo.xlsx", sheet = 1)
+
+estruturas de programação
+
+if
+a = 10
+b = 20
+if (a<b)
+{
+print('verdadeiro')
+}
+else
+{
+print('falso')
+}
+
+ifelse
+
+x = ifelse(a>10, "a é maior", "a não é maior")
+x
+
+for
+
+for (i in 1:10){
+print(i)
+}
+
+resolução exercício
+
+ana = 8
+paulo = 12
+
+if (ana>paulo){
+  print('A menina é mais velha')
+} else{
+ print('o menino é mais velho')
+}
+
+
+
+class(BOD)
+
+exercicio = seq(1, 10)
+for (num in exercicio){
+  if (num %%2 == 0)
+    print(num)
+
+
+tail(women)
+
+
+dados = iris[50:100, c("Sepal.Width", 'Petal.Length')]
+plot(dados)
+
+dados = c(1, 2, 3)
+soma = c(3, 2, 1)
+
+resultado = dados + soma
+
+resultado
+
+
+dim(CO2)
+rownames(CO2)
+colnames(CO2)
+
+
