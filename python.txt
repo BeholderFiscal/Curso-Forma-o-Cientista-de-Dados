@@ -1,0 +1,64 @@
+-----dia 1-----
+
+listas 
+
+- são vetores de valor
+- os dados não precisam ser do mesmo tipo
+- separado por colchetes
+- cada colchete é um espaço na memória
+- são indexados a partir do 0
+
+#ver tamanho da lista
+len('nomedalista')
+
+dicionários
+
+- quando um valor é referente à outro
+- formatados em chave, valor
+exemplo = {'lapis':5.5, 'borracha': 7.0}
+
+sets
+
+- conjuntos nao ordenados e nao repetidos
+de elementos.
+
+exemplo = {'gato', 'cachorro'}
+#não se pode repetir valores
+
+tuplas
+
+- são listas que nao podem ser alteradas
+
+exemplo = (1,2,3,4) - definido por chaves
+
+numpy
+
+- facilita a utilização de matrizes de duas ou mais
+dimensões
+- todos os elementos precisam ser do mesmo tipo
+- as matrizes possuem tamanhos fixos
+
+#criando uma matriz unidimensional
+
+a = np.array ([12, 34, 36, 18m10])
+
+pandas
+
+- biblioteca que permite tratamento de dados
+tabulares, que permite dados de tipos diferentes
+  
+funções internas
+
+abs() retorna valor absoluto
+max() retorna o maior valor
+min() retorna o valor mínimo
+round() arredonda
+sum()soma
+
+módulos nativos
+
+mean() média
+median() mediana
+mode() módulo
+stdev() desvio padrão
+variance() variância
