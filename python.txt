@@ -62,3 +62,52 @@ median() mediana
 mode() módulo
 stdev() desvio padrão
 variance() variância
+
+dicionários
+
+- saber todas as chaves
+dicionário.keys()
+
+- saber todos os valores
+dicionário.values()
+
+- teste lógico de valores
+
+print('chave' in dicionário)
+saída = True ou False
+
+- deletar um valor
+del dicionário['chave']
+
+- incluir um valor
+dicionário[chave] = valor
+
+- buscar um valor, se não conseguir, apresenta erro:
+dicionário.get('chave', 'não encontrado')
+#se puser a chave, ele apresenta o valor na saída
+
+sets
+
+- conjunto de dados nao ordenados, de valores únicos
+
+variável = {1,2,3,4}
+
+- verificar existência:
+print('dado', in variável)
+saída = True ou False
+
+- Adicionar elemento
+variável.add.('nomequalquer')
+
+- Avaliar comprimento
+
+print(len(variável))
+
+tupla
+
+- São listas que não podem ser alteradas
+- Usam parênteses
+
+Numpy
+
+- 
