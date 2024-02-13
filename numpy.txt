@@ -1,0 +1,7 @@
+Numpy
+
+- É uma biblioteca que oferece um grande conjunto de funções e operações de cálculos numéricos
+- Utilizado para:
+* Modelos de Machine Learning
+* processamento de imagem e computação gráfica
+* tarefas matemáticas e lógicas
